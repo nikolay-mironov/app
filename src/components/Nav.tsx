@@ -11,11 +11,11 @@ function Nav() {
   return (
     <>
       <nav className="nav__desktop">
-        <NavLink to="/app/">Home</NavLink>
-        <NavLink to="/app/about">About</NavLink>
-        <NavLink to="/app/techstack">Tech Stack</NavLink>
-        <NavLink to="/app/projects">Projects</NavLink>
-        <NavLink to="/app/contacts">Contacts</NavLink>
+        <NavLink to="/">Home</NavLink>
+        <NavLink to="/about">About</NavLink>
+        <NavLink to="/techstack">Tech Stack</NavLink>
+        <NavLink to="/projects">Projects</NavLink>
+        <NavLink to="/contacts">Contacts</NavLink>
       </nav>
       <div className="nav__mobile">
         <img src={Menu} alt="icon" onClick={() => isVisibleHandler()} />
@@ -26,11 +26,11 @@ function Nav() {
               setIsVisibleItems(false);
             }}
           >
-            <NavLink to="/app/">Home</NavLink>
-            <NavLink to="/app/about">About</NavLink>
-            <NavLink to="/app/techstack">Tech Stack</NavLink>
-            <NavLink to="/app/projects">Projects</NavLink>
-            <NavLink to="/app/contacts">Contacts</NavLink>
+            <NavLink to="/">Home</NavLink>
+            <NavLink to="/about">About</NavLink>
+            <NavLink to="/techstack">Tech Stack</NavLink>
+            <NavLink to="/projects">Projects</NavLink>
+            <NavLink to="/contacts">Contacts</NavLink>
           </div>
         )}
       </div>

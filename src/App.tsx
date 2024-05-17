@@ -13,12 +13,12 @@ import Layout from "./layouts/Layout";
 function App() {
   return (
     <Routes>
-      <Route path="/app/" element={<Layout />}>
+      <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
-        <Route path="/app/about" element={<About />} />
-        <Route path="/app/techstack" element={<TechStack />} />
-        <Route path="/app/projects" element={<Projects />} />
-        <Route path="/app/contacts" element={<Contacts />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/techstack" element={<TechStack />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/contacts" element={<Contacts />} />
       </Route>
     </Routes>
   );
