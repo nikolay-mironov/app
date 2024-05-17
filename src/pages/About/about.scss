@@ -1,0 +1,131 @@
+.about {
+  padding-top: 120px;
+  max-width: 850px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.about__title {
+  margin-bottom: 30px;
+  h2 {
+    font-size: 42px;
+    font-weight: bold;
+    color: #42446e;
+  }
+}
+.about__biography {
+  margin-bottom: 30px;
+  p,
+  li {
+    font-size: 18px;
+    font-weight: 400;
+    color: #666666;
+    text-align: left;
+    text-indent: 25px;
+  }
+}
+.educations__title,
+.jobs__title {
+  padding-top: 30px;
+  h2 {
+    font-size: 42px;
+    font-weight: bold;
+    color: #42446e;
+    text-align: left;
+  }
+}
+
+.job {
+  border-bottom: 2px solid #ebeaed;
+  padding: 22px 0;
+  img {
+    margin-right: 6px;
+  }
+}
+.job__first-column {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  text-align: left;
+}
+.job__second-column {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.job__company {
+  display: flex;
+  span {
+    margin-right: 100px;
+  }
+}
+.job__position {
+  display: block;
+  font-size: 20px;
+  font-weight: 400;
+  color: #666666;
+}
+
+.job__times {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 36px;
+  border-radius: 18px;
+  background: #d7ffe0;
+  color: #018c0f;
+  font-size: 9px;
+  font-weight: 700;
+  text-align: center;
+}
+.job__company-desc,
+.job__location,
+.job__years {
+  span {
+    font-size: 12px;
+    font-weight: 300;
+    color: #a7a7a7;
+  }
+}
+
+.job__company-desc,
+.job__location,
+.job__years {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .job {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .about__title {
+    text-align: center;
+  }
+  .job__second-column {
+    gap: 12px;
+  }
+  .job__company {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+}
+
+// .about__experience,
+// .about__education {
+//   animation: about_animation 2s ease-out;
+// }
+
+// @keyframes about_animation {
+//   from {
+//     opacity: 0;
+//     transform: scale(1.8);
+//   }
+//   to {
+//     opacity: 1;
+//     transform: scale(1);
+//   }
+// }

@@ -1,0 +1,9 @@
+import "../../components/Header/header.scss";
+import "../../layouts/layout.scss";
+import "../../pages/Home/home.scss";
+import "../../pages/TechStack/techStack.scss";
+import "../../pages/About/about.scss";
+import "../../pages/Projects/projects.scss";
+import "../../pages/Contacts/contacts.scss";
+import "../../components/Footer/footer.scss";
+import "animate.css";

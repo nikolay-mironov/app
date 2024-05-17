@@ -1,0 +1,81 @@
+.header {
+  display: flex;
+  align-items: center;
+  .nav__mobile {
+    display: none;
+  }
+  .nav__desktop {
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    & a:last-child {
+      margin-right: 48px;
+    }
+    & a {
+      font-size: 20px;
+      color: #a7a7a7;
+      text-decoration: none;
+    }
+  }
+  .logo span {
+    font-size: 28px;
+    font-weight: 700;
+    background-image: linear-gradient(to left, #e70faa, #00c0fd);
+    color: transparent;
+    -webkit-background-clip: text;
+  }
+  .messengers {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .messegers-icon-telg {
+    width: 28px;
+    height: 28px;
+  }
+  .messegers-icon-git {
+    width: 20px;
+    height: 20px;
+  }
+  .nav__mobile {
+    position: relative;
+    img {
+      width: 48px;
+      height: 48px;
+    }
+  }
+  .menu__items {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    box-shadow: 2px 2px 40px #a7a7a7;
+    padding: 16px 48px;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    z-index: 3;
+    background-color: #fff;
+  }
+}
+@media (max-width: 768px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    .nav__mobile {
+      display: block;
+      order: 1;
+      & a:last-child {
+        margin-right: 48px;
+      }
+      & a {
+        font-size: 20px;
+        color: #a7a7a7;
+        text-decoration: none;
+      }
+    }
+    .nav__desktop {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.contacts {
+  padding-top: 120px;
+  text-align: center;
+  h3 {
+    font-size: 58px;
+    font-weight: bold;
+    color: #1e0e62;
+  }
+  span,
+  a {
+    font-size: 28px;
+    font-weight: 700;
+    color: transparent;
+    -webkit-background-clip: text;
+  }
+  a {
+    background-image: linear-gradient(to left, #00c0fd, #e70faa);
+  }
+  span {
+    background-image: linear-gradient(to left, #e70faa, #00c0fd);
+  }
+}
+.contucts__telegram,
+.contucts__mail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  img {
+    width: 48px;
+    height: 48px;
+  }
+}
+@media (max-width: 768px) {
+  .contucts__mail {
+    display: none;
+  }
+}

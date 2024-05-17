@@ -1,0 +1,54 @@
+.footer {
+  padding-top: 120px;
+  scroll-behavior: smooth;
+  .footer__logo-link {
+    display: flex;
+    margin-bottom: 32px;
+    align-items: center;
+  }
+  .footer__nav {
+    padding-top: 32px;
+    margin-bottom: 32px;
+  }
+  .nav {
+    margin-left: auto;
+    display: flex;
+    justify-content: start;
+    gap: 60px;
+
+    & a {
+      font-size: 20px;
+      color: #a7a7a7;
+      text-decoration: none;
+    }
+  }
+  .contucts {
+    display: flex;
+    gap: 42px;
+    margin-right: 32px;
+  }
+  .logo {
+    margin-right: auto;
+  }
+  .logo span {
+    font-size: 28px;
+    font-weight: 700;
+    background-image: linear-gradient(to left, #e70faa, #00c0fd);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+  .messengers {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .messegers-icon-telg {
+    width: 28px;
+    height: 28px;
+  }
+  .messegers-icon-git {
+    width: 20px;
+    height: 20px;
+  }
+}
